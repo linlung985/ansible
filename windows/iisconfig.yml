@@ -1,0 +1,6 @@
+---
+- name: IIS config
+  hosts: Windows
+
+  roles:
+    - role_windows_iis
